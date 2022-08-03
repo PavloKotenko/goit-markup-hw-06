@@ -447,6 +447,37 @@
               <use href="./images/hw5/symbol-defs.svg#close"></use>
             </svg>
           </button>
+          <h2>Залиште свої дані, ми вам передзвонимо</h2>
+          <form class="user-form">
+            <div class="form-field">
+              <label for="user-name" class="form-label">Ім'я</label>
+              <input type="text" name="user-name" id="user-name" class="form-input" />
+            </div>
+
+            <div class="form-field">
+              <label for="user-number" class="form-label">Телефон</label>
+              <input type="tel" name="user-number" id="user-number" class="form-input" />
+            </div>
+
+            <div class="form-field">
+              <label for="user-mail" class="form-label">Пошта</label>
+              <input type="email" name="user-mail" id="user-mail" class="form-input" />
+            </div>
+
+            <div class="form-field">
+              <label for="coment" class="form-label">Коментар</label>
+              <textarea name="coment" id="coment" rows="10" placeholder="Введіть текст"></textarea>
+            </div>
+
+            <div class="checkbox">
+              <input type="checkbox" name="permit" id="permit" class="form-input" />
+              <label for="permit" class="form-label"
+                >Погоджуюся з розсилкою та приймаю <a href=""> Умови договору</a></label
+              >
+            </div>
+
+            <button type="submit" class="btn">Відправити</button>
+          </form>
         </div>
       </div>
     </main>
@@ -523,6 +554,16 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div>
+          <form class="form-subscribe">
+            <div class="">
+              <label for="subscribe"> Підпишіться на розсилку </label>
+              <input type="email" name="subscribe-email" id="subscribe" placeholder="E-mail" />
+            </div>
+
+            <button type="submit">Підписатися</button>
+          </form>
         </div>
       </div>
     </footer>
